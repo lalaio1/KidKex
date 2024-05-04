@@ -1,8 +1,7 @@
 import os
 import subprocess
 from colorama import Fore, Style, init
-from start import iniciar_kex
-from start import encerrar_processos
+
 
 init()
 
@@ -92,5 +91,4 @@ elif escolha == "4":
 
 print(f"{Fore.GREEN}[!] Para utilizar o kex, é só dar o comando 'kex' no seu terminal WSL")
 input(f"{Fore.RED}\n\n\n\n\n[-] Pressione Enter para continuar...")
-encerrar_processos()
-iniciar_kex()
+
